@@ -5063,7 +5063,7 @@ spawn(function()
         end)
     end
 end)
-local ToggleBuy = Tabs.Raids:AddToggle("ToggleBuy", {Title="Buy Chip", Description="",Default=false })
+local ToggleBuy = Tabs.Tab Fruit And Raid:AddToggle("ToggleBuy", {Title="Buy Chip", Description="",Default=false })
 ToggleBuy:OnChanged(function(Value)
     _G.Auto_Buy_Chips_Dungeon=Value
 end)
@@ -5082,7 +5082,7 @@ spawn(function()
         end
     end
 end)
-    local ToggleStart = Tabs.Raids:AddToggle("ToggleStart", {Title="Start Raid",Description="", Default=false })
+    local ToggleStart = Tabs.Tab Fruit And Raid:AddToggle("ToggleStart", {Title="Start Raid",Description="", Default=false })
     ToggleStart:OnChanged(function(Value)
         _G.Auto_StartRaid=Value
 end)
@@ -5117,7 +5117,7 @@ spawn(function()
         end)
     end
 end)
-local ToggleNextIsland = Tabs.Raids:AddToggle("ToggleNextIsland", {
+local ToggleNextIsland = Tabs.Tab Fruit And Raid:AddToggle("ToggleNextIsland", {
     Title="Auto Fram Raid",
     Description="",
     Default=false
@@ -5175,7 +5175,7 @@ spawn(function()
         end
     end
 end)
-local ToggleAwake = Tabs.Raids:AddToggle("ToggleAwake", {Title="Auto Awakening",Description="", Default=false })
+local ToggleAwake = Tabs.Tab Fruit And Raid:AddToggle("ToggleAwake", {Title="Auto Awakening",Description="", Default=false })
 ToggleAwake:OnChanged(function(Value)
     AutoAwakenAbilities=Value
 end)
