@@ -1,5 +1,5 @@
 local Config = {
-    ['Key'] = 'teddyhubfreemium',
+    ['Key'] = 'freemium',
     ['Link Key'] = {
         ['Key 1'] = 'https://link4sub.com/QzgP',
         ['Key 2'] = '',
