@@ -3685,7 +3685,7 @@ spawn(function()
 				elseif (_G.FastAttackDelay == "Super Attack") then
 					_G.FastAttackDelay = 0.02;
 				elseif (_G.FastAttackDelay == "AnDepZai Attack") then
-					_G.FastAttackDelay = -1;
+					_G.FastAttackDelay = -10;
 				end
 			end);
 		end
