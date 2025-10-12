@@ -2006,7 +2006,7 @@
 		Title = "Cuong Hub",
 		SubTitle = "By macuongdz",
 		TabWidth = 155,
-		Theme = "Light",
+		Theme = "Darker",
 		Acrylic = false,
 		Size = UDim2.fromOffset(555, 320),
 		MinimizeKey = Enum.KeyCode.End
@@ -2088,7 +2088,7 @@
 			Title = "Tab Sea Event"
 		}),
 		Mirage = Window:AddTab({
-			Title = "Tab Mirage + RaceV4"
+			Title = "Tab Mirage + RaceV4(Ấn Vào Dây)"
 		}),
 		Drago = Window:AddTab({
 			Title = "Tab Drago Dojo"
@@ -6671,15 +6671,15 @@
 		Content = ""
 	})
 	Ismirage = Tabs.Mirage:AddParagraph({
-		Title = " Mirage Island Status ",
+		Title = " Mirage Island(đảo bí ẩn) Status ",
 		Content = ""
 	})
 	spawn(function()
 		while wait(.2) do
 			if workspace.Map:FindFirstChild("MysticIsland") or workspace._WorldOrigin.Locations:FindFirstChild("Mirage Island") then
-				Ismirage:SetDesc(" Mirage Island : ✅")
+				Ismirage:SetDesc(" Đảo bí ẩn : ✅Vào up đê")
 			else
-				Ismirage:SetDesc(" Mirage Island : ❌")
+				Ismirage:SetDesc(" Đảo bí ẩn  : ❌Đéo Có ok")
 			end
 		end
 	end)
@@ -6716,7 +6716,7 @@
 		end
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Find Mirage Island",
+		Title = "Auto Find Mirage Island(tìm đảo bí ẩn)",
 		Description = "turn on for finding & tween mirage island",
 		Default = false
 	})
@@ -6760,7 +6760,7 @@
 		end
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Tween To Highest Point",
+		Title = "Auto Tween To Highest Point(dịch chuyển lên chỗ cao đảo bí ẩn) ",
 		Description = "",
 		Default = false
 	})
@@ -6779,7 +6779,7 @@
 		end
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Collect Gear",
+		Title = "Auto Collect Gear(nhặt Gear xanh",
 		Description = "",
 		Default = false
 	})
@@ -6802,7 +6802,7 @@
 		end)
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Change Transparency can see",
+		Title = "Change Transparency can see(ko cần Thiết) ",
 		Description = "",
 		Default = false
 	})
@@ -6827,7 +6827,7 @@
 		end)
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Tween Advanced Fruit Dealer",
+		Title = "Auto Tween Advanced Fruit Dealer(ko liên quan) ",
 		Description = "",
 		Default = false
 	})
@@ -6848,7 +6848,7 @@
 		end
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Collect Mirage Chest",
+		Title = "Auto Collect Mirage Chest(ko liên quan)",
 		Description = "",
 		Default = false
 	})
@@ -6889,7 +6889,7 @@
 		end
 	end)
 
-	Tabs.Mirage:AddSection("Skull Guitars / Misc")
+	Tabs.Mirage:AddSection("lướt xuống dưới đi skull gita kệ mẹ")
 	local CheckSoul = Tabs.Mirage:AddParagraph({
 		Title = " Skull Guitar Quests ",
 		Content = ""
@@ -7196,7 +7196,7 @@
 		end
 	})
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Look At Moon",
+		Title = "Auto Look At Moon(tự nhìn vào trăng) tự soi",
 		Description = "",
 		Default = false
 	})
@@ -7217,9 +7217,9 @@
 		end
 	end)
 
-	Tabs.Mirage:AddSection("Trials Quests / Misc V4")
+	Tabs.Mirage:AddSection("Trials Quests / Misc V4(phần up v4 đây này")
 	local CheckTier = Tabs.Mirage:AddParagraph({
-		Title = " Tiers V4 Status ",
+		Title = " Tiers V4 Status (đéo biết) ",
 		Content = ""
 	})
 	spawn(function()
@@ -7230,7 +7230,7 @@
 		end)
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Pull Lever",
+		Title = "Auto Pull Lever(gạt Cần lưu ý đây là tự động gạt chứ ko tự soi rồi tự gạt",
 		Description = "",
 		Default = false
 	})
@@ -7251,7 +7251,7 @@
 		end
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Train V4",
+		Title = "Auto Train V4(đánh quái trong thử thách Của tộc Mày) ",
 		Description = "turn on for farm tier + auto upgrade your tier level",
 		Default = false
 	})
@@ -7290,28 +7290,28 @@
 		end
 	end)
 	Tabs.Mirage:AddButton({
-		Title = "Teleport to Temple of Time",
+		Title = "Teleport to Temple of Time(dịch chuyển đến chỗ up tộc) ",
 		Description = "",
 		Callback = function()
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(28286.35546875, 14895.3017578125, 102.62469482421875))
 		end
 	})
 	Tabs.Mirage:AddButton({
-		Title = "Teleport to Ancient One",
+		Title = "Teleport to Ancient One(đéo biết là gì) ",
 		Description = "",
 		Callback = function()
 			notween(CFrame.new(28981.552734375, 14888.4267578125, - 120.245849609375))
 		end
 	})
 	Tabs.Mirage:AddButton({
-		Title = "Teleport to Ancient Clock",
+		Title = "Teleport to Ancient Clock(dchuyển đến đồng hồ la mã )",
 		Description = "",
 		Callback = function()
 			notween(CFrame.new(29549, 15069, -88))
 		end
 	})
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Teleport to Race Doors",
+		Title = "Auto Teleport to Race Doors(dchuyển đến cửa tộc của mày) ",
 		Description = "",
 		Default = false
 	})
@@ -7340,7 +7340,7 @@
 		end
 	end)                   
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Complete Trial Race",
+		Title = "Auto Complete Trial Race(hoàn thành thử thách tộc của mày) ",
 		Description = "",
 		Default = false
 	})
@@ -7451,7 +7451,7 @@
 		end
 	end)
 	local Q = Tabs.Mirage:AddToggle("Q", {
-		Title = "Auto Kill Player After Trial",
+		Title = "Auto Kill Player After Trial(đấm chết mấy thằng up v4 đối thủ)",
 		Description = "turn on for kill player after the race trials",
 		Default = false
 	})
