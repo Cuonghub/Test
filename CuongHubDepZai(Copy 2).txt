@@ -8028,7 +8028,7 @@
 		end
 	end)
 	else
-	Tabs.Drago:AddSection("CHỈ CÓ TẠI SEA 3")
+	Tabs.Drago:AddSection("Only Sea 3")
 	end
 	if World3 then
 	Tabs.Prehistoric:AddSection("Volcanic Magnet")
@@ -8302,7 +8302,7 @@
 		end
 	end)
 	else
-		Tabs.Prehistoric:AddSection("CHỈ CÓ TẠI SEA 3")
+		Tabs.Prehistoric:AddSection("Only Sea 3")
 		end
 	if World3 then
 	Tabs.SeaEvent:AddSection("Sea Event / Setting Sail")
@@ -8986,7 +8986,7 @@
 		end
 	})
 	else
-		Tabs.SeaEvent:AddSection("CHỈ CÓ TẠI SEA 3")
+		Tabs.SeaEvent:AddSection("Only Sea 3")
 		end
 
 	Tabs.Raids:AddSection("Dungeon Event / Raiding")
